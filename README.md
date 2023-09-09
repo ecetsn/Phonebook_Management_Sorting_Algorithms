@@ -1,6 +1,6 @@
 # Phonebook_Management_with_Hashtable
 
-## Main aim of program is to compare the time performance of template-based Hash Table and BST.
+## The Main aim of the program is to compare the time performance of Sorting Algorithms using template-based Hash Table and BST.
 
 This program implements a phonebook management system using Binary Search Tree (BST) and Hash Table data structures. It provides functionalities for searching, adding, and deleting contacts, as well as comparing the performance of these two data structures. The program is template-based to allow flexibility in contact information storage.
 
