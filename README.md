@@ -1,37 +1,41 @@
 # Phonebook_Management_with_Hashtable
 
-## The Main aim of the program is to compare the time performance of Sorting Algorithms using template-based Hash Table and BST.
+## The Main aim of the program is to compare the time performance of Sorting Algorithms and Sequential Search vs. Binary Search.
 
-This program implements a phonebook management system using Binary Search Tree (BST) and Hash Table data structures. It provides functionalities for searching, adding, and deleting contacts, as well as comparing the performance of these two data structures. The program is template-based to allow flexibility in contact information storage.
+This C++ program implements a phonebook management system using Binary Search (BS) and Sequential Search data structures. It provides functionalities for sorting and measuring the performance of various search and sort algorithms. This README will help you understand the program, how to use it, and the key features it offers. First, we use sorting algorithms to sort the phonebook then we take a query from the user and search it through using Sequential Search and Binary Search(to compare them).
 
-## Functionality
-The program offers the following functionalities:
+## Overview
+This program serves as a phonebook management tool, allowing users to perform various operations on their contacts. It includes the following functionalities:
 
-**Search Contact:** Search for a contact by entering a full name (e.g., "John Doe"). The program displays contacts matching the full name.
+## Perform Operations:
 
-**Add Contact:** Add a new contact to both the BST and the Hash Table. Contacts are compared alphabetically by full name (first name + last name). If the contact already exists, a warning message is displayed.
+Searching, sorting, and measuring performance.
 
-**Delete Contact:** Remove a contact from the phonebook by providing the full contact name (e.g., "Alice Smith").
+## Program Flow
 
-**Performance Comparison:** Compare the performance of BST and Hash Table data structures by performing the same search operation 500 times and calculating the average timing. Display the speedup ratio of these timing values compared to each other.
+### Load Phonebook Data:
 
-## Input Data
-The program reads contact information from an input file (e.g., "PhoneBook-sample2.txt"). Each line of the input file represents a contact and includes first name, last name, phone number, and city information.
+Read contact information from the specified input file and create a vector of contacts.
+Measure and display the time taken to create a sorted copy of the vector.
 
-## Execution Flow
-Here's how the program works:
+### Sort the Phonebook:
 
-**Load Input File:** The program reads contact information from the specified input file and creates a BST and a Hash Table with the data. It measures and displays the time taken for tree creation and hash table initialization.
+Sort the original phonebook vector using various sorting algorithms:
+Quick Sort
+Merge Sort
+Heap Sort
+Insertion Sort
+Measure and display the execution times for sorting algorithms.
 
-**Rehashing Information:** While processing the input file, the program prints information about the Hash Table every time rehashing occurs. This information includes the previous capacity, previous load, current capacity, current load, and the number of items in the Hash Table.
+### Search Contacts:
 
-**Menu:** After loading the phonebook, the program displays a menu of functionalities for the user to choose from.
+Allow users to search for contacts by entering a full or partial name.
+Display matching contacts for both Binary Search and Sequential Search.
 
-**Function Execution:** When a user selects a function (1 to 3), the program executes that function for both the BST and the Hash Table. It measures and displays the execution time for each operation.
+## Performance Measurement:
 
-**Performance Comparison:** To compare the performance of BST and Hash Table, the program performs the same search operation 500 times, measures the time taken for each data structure, calculates the average timing, and displays the speedup ratio.
-
-**Exit:** After executing a function or completing the performance comparison, the program allows the user to exit the program.
+Measure and display the execution times of search algorithms (Binary Search and Sequential Search).
+Calculate and display the speedup ratios between different sorting algorithms.
 
 <br>
 
