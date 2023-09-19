@@ -37,6 +37,7 @@ Display matching contacts for both Binary Search and Sequential Search.
 Measure and display the execution times of search algorithms (Binary Search and Sequential Search).
 Calculate and display the speedup ratios between different sorting algorithms.
 
-<br>
+<br/>
 
-⚠️ This project was developed as a programming assignment and serves as an educational resource for working with sparse matrices and linked lists.
+> [!NOTE]
+> This project was developed as a programming assignment and serves as an educational resource for working.
